@@ -1,0 +1,28 @@
+package frc.quixlib.localization;
+
+import edu.wpi.first.math.geometry.Rotation2d;
+import edu.wpi.first.math.kinematics.SwerveModulePosition;
+
+/** Contains everything necessary to update swerve drive odometry. */
+/**
+ * Represents a measurement of the swerve drive odometry. This class holds the gyro angle and the
+ * positions of the swerve modules.
+ */
+public class SwerveDriveOdometryMeasurement {
+  private final Rotation2d m_gyroAngle;
+  private final SwerveModulePosition[] m_modulePositions;
+
+  public SwerveDriveOdometryMeasurement(
+      final Rotation2d gyroAngle, final SwerveModulePosition[] modulePositions) {
+    m_gyroAngle = gyroAngle;
+    m_modulePositions = modulePositions;
+  }
+
+  public Rotation2d getGyroAngle() {
+    return m_gyroAngle;
+  }
+
+  public SwerveModulePosition[] getModulePositionStates() {
+    return m_modulePositions;
+  }
+}

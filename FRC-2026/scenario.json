@@ -1,0 +1,65 @@
+{
+  "alliance": "blue",
+  "steps": [
+    {
+      "time_seconds": 0.0,
+      "mode": "teleop",
+      "enabled": true,
+      "joysticks": {
+        "0": {
+          "axes": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+          "buttons": [false, false, false, false, false, false, false, false, false, false],
+          "povs": [-1]
+        }
+      }
+    },
+    {
+      "time_seconds": 1.0,
+      "mode": "teleop",
+      "enabled": true,
+      "joysticks": {
+        "0": {
+          "axes": [0.0, -0.5, 0.0, 0.0, 0.0, 0.0],
+          "buttons": [false, false, false, false, false, false, false, false, false, false],
+          "povs": [-1]
+        }
+      }
+    },
+    {
+      "time_seconds": 3.0,
+      "mode": "teleop",
+      "enabled": true,
+      "joysticks": {
+        "0": {
+          "axes": [0.3, 0.0, 0.0, 0.0, 0.0, 0.0],
+          "buttons": [false, false, false, false, false, false, false, false, false, false],
+          "povs": [-1]
+        }
+      }
+    },
+    {
+      "time_seconds": 5.0,
+      "mode": "teleop",
+      "enabled": true,
+      "joysticks": {
+        "0": {
+          "axes": [0.0, 0.0, 0.0, 0.8, 0.0, 0.0],
+          "buttons": [false, false, false, false, false, false, false, false, false, false],
+          "povs": [-1]
+        }
+      }
+    },
+    {
+      "time_seconds": 7.0,
+      "mode": "teleop",
+      "enabled": true,
+      "joysticks": {
+        "0": {
+          "axes": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+          "buttons": [false, false, false, false, false, false, false, false, false, false],
+          "povs": [-1]
+        }
+      }
+    }
+  ]
+}
